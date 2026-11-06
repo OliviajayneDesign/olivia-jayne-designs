@@ -23,3 +23,7 @@ A custom, responsive static portfolio website built with HTML, CSS and vanilla J
 - The Google Fonts connection requires internet access; fallback serif and sans-serif fonts are included.
 
 The current project visuals are original CSS-based concept placeholders, not representations of completed client work.
+
+
+## Brand pattern assets
+The `assets/` folder contains two original repeating SVG pattern tiles used in the hero, About section, and selected project mockups. Keep this folder in the repository when uploading updates.
