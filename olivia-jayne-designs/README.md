@@ -1,29 +1,14 @@
-# Olivia Jayne Designs
+# Olivia Jayne Designs — Version 5
 
-A custom, responsive static portfolio website built with HTML, CSS and vanilla JavaScript.
+This version keeps the Version 4 layout and updates the brand marks using the supplied original OJ floral monogram and wordmark artwork.
 
-## Preview locally
-1. Unzip the folder.
-2. Open `index.html` in a browser.
-3. For a local development server, run `python3 -m http.server 8000` from this folder and visit `http://localhost:8000`.
+## What's changed
+- Replaced the text-only header and footer logo with the supplied full wordmark artwork.
+- Replaced the previous arch-style About graphic with the supplied original OJ floral monogram.
+- Added favicon and Apple touch icon sizes derived from the supplied monogram.
+- Kept the existing page layout, palette, project grid, filters, and subtle motion.
 
-## Publish with Cloudflare Pages
-1. Create a GitHub repository (for example, `olivia-jayne-designs`).
-2. Upload `index.html`, `styles.css`, `script.js`, and this README to the repository root.
-3. In Cloudflare, go to **Workers & Pages** → **Create** → **Pages** → **Connect to Git**.
-4. Select your repository.
-5. Choose **None** for the framework preset. Leave the build command blank. Set the build output directory to `/`.
-6. Deploy. Cloudflare will provide a `*.pages.dev` address.
+## Deploying
+Upload and replace the files in the same website folder that currently contains `index.html`, `styles.css`, `script.js`, and `README.md`. Include the complete `assets` folder. Commit the changes in GitHub, then let the existing Cloudflare deployment workflow run or trigger a new deployment using the same method used for the current site.
 
-## Before publishing
-- Replace the sample project artwork in the HTML/CSS with your own portfolio images and project descriptions.
-- Replace `hello@oliviajayne.design` with the email address you want clients to use.
-- Confirm the location line and About copy reflect how you want to introduce yourself.
-- Add your social links if you want them shown.
-- The Google Fonts connection requires internet access; fallback serif and sans-serif fonts are included.
-
-The current project visuals are original CSS-based concept placeholders, not representations of completed client work.
-
-
-## Brand pattern assets
-The `assets/` folder contains two original repeating SVG pattern tiles used in the hero, About section, and selected project mockups. Keep this folder in the repository when uploading updates.
+Do not upload the ZIP itself as the website. Extract it first and upload the files and `assets` folder from inside.

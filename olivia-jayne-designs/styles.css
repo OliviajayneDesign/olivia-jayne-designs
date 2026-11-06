@@ -96,20 +96,20 @@ h2 { color: var(--espresso); font: 400 clamp(54px, 7vw, 96px)/.9 var(--serif); l
 .contact-top { display: flex; justify-content: space-between; }.contact-section h2 { font-size: clamp(65px, 10vw, 135px); margin: 45px 0 55px; }.contact-section h2 em { color: var(--blue); }
 .contact-bottom { display: flex; align-items: end; justify-content: space-between; gap: 25px; }.contact-bottom p { max-width: 270px; font: 400 17px/1.5 var(--serif); color: #6e685e; margin: 0; }
 .contact-button { display: inline-flex; align-items: center; gap: 35px; padding: 17px 23px; background: var(--olive); color: var(--cream); border-radius: 100px; text-transform: uppercase; font-size: 9px; letter-spacing: 1.4px; transition: background .25s, transform .25s; }.contact-button:hover { background: var(--espresso); transform: translateY(-3px); }
-.site-footer { border-top: 1px solid rgba(73,55,47,.2); padding: 25px 5.5vw; display: grid; grid-template-columns: 1fr 1.5fr 1fr auto; align-items: center; gap: 20px; }.site-footer .wordmark { font-size: 20px; }.site-footer > span, .site-footer > a:not(.wordmark), .site-footer small { font-size: 8px; letter-spacing: 1px; text-transform: uppercase; color: #716b61; }.site-footer small { text-align: right; }
+.site-footer { border-top: 1px solid rgba(73,55,47,.2); padding: 25px 5.5vw; display: grid; grid-template-columns: 1fr 1.5fr 1fr auto; align-items: center; gap: 20px; }.site-footer .wordmark img { width: 175px; max-height: 58px; }.site-footer > span, .site-footer > a:not(.wordmark), .site-footer small { font-size: 8px; letter-spacing: 1px; text-transform: uppercase; color: #716b61; }.site-footer small { text-align: right; }
 .reveal { opacity: 0; transform: translateY(18px); transition: opacity .75s ease, transform .75s ease; }.reveal.is-visible { opacity: 1; transform: translateY(0); }
 @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } *, *::before, *::after { transition-duration: .01ms !important; animation-duration: .01ms !important; } .reveal { opacity: 1; transform: none; } }
 @media (max-width: 760px) {
-  .site-header { height: 70px; padding: 0 6vw; }.wordmark { font-size: 22px; }.wordmark span { font-size: 8px; margin-left: 3px; }
+  .site-header { height: 70px; padding: 0 6vw; }.wordmark img { width: 168px; max-height: 54px; }
   .menu-toggle { display: flex; flex-direction: column; gap: 5px; border: 0; background: none; padding: 10px 0 10px 10px; z-index: 12; }.menu-toggle span { display: block; width: 24px; height: 1px; background: var(--espresso); }
   .navigation { display: none; position: absolute; top: 69px; left: 0; right: 0; background: var(--cream); padding: 25px 6vw 30px; flex-direction: column; gap: 22px; border-bottom: 1px solid rgba(73,55,47,.2); }.navigation.open { display: flex; }
   .section-wrap { padding-left: 6vw; padding-right: 6vw; }.hero { padding-top: 130px; min-height: auto; }.hero-heading { grid-template-columns: 1fr; gap: 28px; margin: 28px 0 32px; }h1 { font-size: clamp(76px, 19vw, 130px); letter-spacing: -4px; }.hero-aside { margin-left: auto; max-width: 255px; }.hero-art { height: 62vw; min-height: 230px; }.shape-arch { width: 35%; }.shape-orb { width: 30%; left: 37%; }.shape-wave { width: 38%; right: 5%; }
   .work-section { padding-top: 85px; padding-bottom: 90px; }.section-heading { display: block; }.section-heading p { margin-top: 20px; }.filters { gap: 6px; }.filter { padding: 8px 11px; font-size: 8px; }.project-grid { gap: 38px 13px; }.project-card:nth-child(2) { margin-top: 45px; }.project-card:nth-child(3) { margin-top: -30px; }.project-visual { height: 260px; }.project-wide .project-visual { height: 300px; }.pack-box { width: 55%; padding: 15px; }.pack-box span { font-size: 32px; }.brand-big { letter-spacing: -3px; }.campaign-copy { font-size: 55px; }.project-meta h3 { font-size: 19px; }.project-type { font-size: 7px; }.project-arrow { font-size: 16px; }
-  .about-section { padding: 80px 0; }.about-inner { grid-template-columns: 1fr; gap: 35px; }.about-index { flex-direction: row; justify-content: space-between; }.about-copy h2 { margin-top: 0; }.about-mark { width: 140px; height: 165px; font-size: 110px; margin: 5px 0 0 auto; }
+  .about-section { padding: 80px 0; }.about-inner { grid-template-columns: 1fr; gap: 35px; }.about-index { flex-direction: row; justify-content: space-between; }.about-copy h2 { margin-top: 0; }.about-mark { width: 112px; margin: 5px 0 0 auto; }.about-mark img { max-height: 165px; }
   .contact-section { padding-top: 80px; padding-bottom: 80px; }.contact-section h2 { font-size: clamp(62px, 15vw, 100px); margin: 40px 0; }.contact-bottom { align-items: start; flex-direction: column; }.site-footer { padding: 25px 6vw; grid-template-columns: 1fr 1fr; }.site-footer > span { grid-column: 1 / -1; order: 3; }.site-footer small { text-align: left; }
 }
 @media (max-width: 480px) {
-  .hero-kicker { font-size: 8px; }.hero-art { min-height: 205px; }.project-grid { grid-template-columns: 1fr; gap: 34px; }.project-wide { grid-column: auto; }.project-card:nth-child(2), .project-card:nth-child(3) { margin-top: 0; }.project-visual, .project-wide .project-visual { height: 310px; }.project-card:nth-child(odd) { width: 94%; }.project-card:nth-child(even) { width: 94%; margin-left: auto; }.project-card:nth-child(even) .project-visual { height: 290px; }.brand-big { font-size: 100px; }.visual-illustration .illustration-word { font-size: 105px; }.site-footer { gap: 18px 10px; }.site-footer .wordmark { font-size: 17px; }
+  .hero-kicker { font-size: 8px; }.hero-art { min-height: 205px; }.project-grid { grid-template-columns: 1fr; gap: 34px; }.project-wide { grid-column: auto; }.project-card:nth-child(2), .project-card:nth-child(3) { margin-top: 0; }.project-visual, .project-wide .project-visual { height: 310px; }.project-card:nth-child(odd) { width: 94%; }.project-card:nth-child(even) { width: 94%; margin-left: auto; }.project-card:nth-child(even) .project-visual { height: 290px; }.brand-big { font-size: 100px; }.visual-illustration .illustration-word { font-size: 105px; }.site-footer { gap: 18px 10px; }.site-footer .wordmark img { width: 148px; max-height: 48px; }
 }
 
 /* Tactile, hand-made finish inspired by the supplied visual references */
@@ -416,4 +416,22 @@ h1 {
   .about-mark { margin: 0 0 0 auto; }
   .contact-bottom { align-items: flex-start; }
   .contact-button { margin-top: 12px; }
+}
+
+
+/* Olivia Jayne Designs identity update: use the supplied original logo artwork */
+.wordmark { display: inline-flex; align-items: center; flex: 0 0 auto; line-height: 0; }
+.wordmark img { display: block; width: 205px; height: auto; max-height: 66px; object-fit: contain; }
+.site-footer .wordmark img { width: 176px; max-height: 58px; }
+.about-mark { width: 150px; height: auto; border: 0; border-radius: 0; background: transparent; position: relative; margin: 0 auto; display: flex; align-items: center; justify-content: center; }
+.about-mark img { display: block; width: 100%; height: auto; max-height: 225px; object-fit: contain; filter: brightness(0) invert(1); opacity: .96; }
+.about-pattern-label { display: none; }
+@media (max-width: 760px) {
+  .wordmark img { width: 165px; max-height: 54px; }
+  .site-footer .wordmark img { width: 150px; max-height: 48px; }
+  .about-mark { width: 118px; height: auto; margin: 0 0 0 auto; }
+  .about-mark img { max-height: 175px; }
+}
+@media (max-width: 520px) {
+  .about-mark { margin: 0 0 0 auto; }
 }
