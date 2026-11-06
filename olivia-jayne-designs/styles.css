@@ -421,14 +421,14 @@ h1 {
 
 /* Olivia Jayne Designs identity update: use the supplied original logo artwork */
 .wordmark { display: inline-flex; align-items: center; flex: 0 0 auto; line-height: 0; }
-.wordmark img { display: block; width: 205px; height: auto; max-height: 66px; object-fit: contain; }
-.site-footer .wordmark img { width: 176px; max-height: 58px; }
+.wordmark img { display: block; width: 224px; height: auto; max-height: 74px; object-fit: contain; }
+.site-footer .wordmark img { width: 194px; max-height: 66px; }
 .about-mark { width: 150px; height: auto; border: 0; border-radius: 0; background: transparent; position: relative; margin: 0 auto; display: flex; align-items: center; justify-content: center; }
 .about-mark img { display: block; width: 100%; height: auto; max-height: 225px; object-fit: contain; filter: brightness(0) invert(1); opacity: .96; }
 .about-pattern-label { display: none; }
 @media (max-width: 760px) {
-  .wordmark img { width: 165px; max-height: 54px; }
-  .site-footer .wordmark img { width: 150px; max-height: 48px; }
+  .wordmark img { width: 188px; max-height: 62px; }
+  .site-footer .wordmark img { width: 168px; max-height: 56px; }
   .about-mark { width: 118px; height: auto; margin: 0 0 0 auto; }
   .about-mark img { max-height: 175px; }
 }
